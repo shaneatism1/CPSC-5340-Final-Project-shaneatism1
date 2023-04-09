@@ -15,3 +15,7 @@ struct QuestionModel<SomeType> : Identifiable {
 struct MathQuestionModel: Hashable {
     let prompt : String
 }
+
+struct HistoryQuestionModel: Hashable {
+    let prompt : String
+}
