@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E44782BB-201E-46FA-8DFF-C81F6FD960C8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76D8B2E5-5FDA-4168-9906-519ADD7B901D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "View Models/ArtViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchQuestionsAsync()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49C25DDE-51F3-4F08-A1CF-6FF9682F1439"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "View Models/ArtViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchData(urll:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06F1E361-D853-4A14-B52B-24562F76D292"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "View Models/ArtViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetchData(urll:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "06F1E361-D853-4A14-B52B-24562F76D292 - cb967d18d0e0f16c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Assignment3.ArtViewModel.fetchData(urll: Swift.String) async -&gt; Swift.String"
+                  moduleName = "Assignment3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user231162/Desktop/Final%20Project%20shaneatism1/View%20Models/ArtViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "06F1E361-D853-4A14-B52B-24562F76D292 - e4f47f08734f2cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Assignment3.ArtViewModel.fetchData(urll: Swift.String) async -&gt; Swift.String"
+                  moduleName = "Assignment3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user231162/Desktop/Final%20Project%20shaneatism1/View%20Models/ArtViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "06F1E361-D853-4A14-B52B-24562F76D292 - bd14db89361bb56e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Assignment3.ArtViewModel.fetchData(urll: Swift.String) async -&gt; Swift.String"
+                  moduleName = "Assignment3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user231162/Desktop/Final%20Project%20shaneatism1/View%20Models/ArtViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "06F1E361-D853-4A14-B52B-24562F76D292 - aa546b418b7f1b6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Assignment3.ArtViewModel.fetchData(urll: Swift.String) async -&gt; Swift.String"
+                  moduleName = "Assignment3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user231162/Desktop/Final%20Project%20shaneatism1/View%20Models/ArtViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6DD88EB-5112-4148-A4A4-783FD1361179"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "View Models/ArtViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchData(urll:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B703517C-CFFA-4761-A072-06B9B3715AF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "View Models/ArtViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchData(urll:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B703517C-CFFA-4761-A072-06B9B3715AF3 - bd14db89361bb6f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Assignment3.ArtViewModel.fetchData(urll: Swift.String) async -&gt; Swift.String"
+                  moduleName = "Assignment3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user231162/Desktop/Final%20Project%20shaneatism1/View%20Models/ArtViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "B703517C-CFFA-4761-A072-06B9B3715AF3 - aa546b418b7f18f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Assignment3.ArtViewModel.fetchData(urll: Swift.String) async -&gt; Swift.String"
+                  moduleName = "Assignment3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user231162/Desktop/Final%20Project%20shaneatism1/View%20Models/ArtViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
