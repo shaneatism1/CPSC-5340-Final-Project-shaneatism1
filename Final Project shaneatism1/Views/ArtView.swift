@@ -12,7 +12,7 @@ struct ArtView: View {
     @State var input: String = ""
     @State var numRight: Int = 0
     @State var i: Int = 0
-    let rightAnswers : [String] = ["", "", "", "", ""]
+    let rightAnswers : [String] = ["quail and millet", "figure of john wilkes", "soup plate", "candelabrum", "andiron"]
     @ObservedObject var viewModel = ArtViewModel()
     
     var body: some View {
