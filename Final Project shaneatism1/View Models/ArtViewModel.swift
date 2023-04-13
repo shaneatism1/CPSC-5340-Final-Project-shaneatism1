@@ -35,7 +35,11 @@ class ArtViewModel : ObservableObject {
     
     func fetchQuestionsAsync() async {
         self.listofArtQuestions = await [
-            ArtModel(objectID: 45734, primaryImageSmall: fetchData( urll: "https://collectionapi.metmuseum.org/public/collection/v1/objects/45734"))
+            ArtModel(objectID: 45734, primaryImageSmall: fetchData( urll: "https://collectionapi.metmuseum.org/public/collection/v1/objects/45734")),
+            ArtModel(objectID: 4546, primaryImageSmall: fetchData( urll: "https://collectionapi.metmuseum.org/public/collection/v1/objects/4546")),
+            ArtModel(objectID: 7684, primaryImageSmall: fetchData( urll: "https://collectionapi.metmuseum.org/public/collection/v1/objects/7684")),
+            ArtModel(objectID: 1123, primaryImageSmall: fetchData( urll: "https://collectionapi.metmuseum.org/public/collection/v1/objects/1123")),
+            ArtModel(objectID: 115, primaryImageSmall: fetchData( urll: "https://collectionapi.metmuseum.org/public/collection/v1/objects/115"))
         ]
     }
 }
