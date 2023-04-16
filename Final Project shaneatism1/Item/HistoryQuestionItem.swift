@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HistoryQuestionItem: View {
+    
     var question : QuestionModel<HistoryQuestionModel>
     
     var body: some View {

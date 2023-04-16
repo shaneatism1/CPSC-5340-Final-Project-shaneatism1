@@ -1,19 +1,19 @@
 //
-//  ArtView.swift
+//  AstronomyView.swift
 //  Assignment3
 //
-//  Created by user231162 on 4/12/23.
+//  Created by user231162 on 4/16/23.
 //
 
 import SwiftUI
 
-struct ArtView: View {
+struct AstronomyView: View {
     
     @State var input: String = ""
     @State var numRight: Int = 0
     @State var i: Int = 0
-    let rightAnswers : [String] = ["quail and millet", "figure of john wilkes", "soup plate", "candelabrum", "andiron"]
-    @ObservedObject var viewModel = ArtViewModel()
+    let rightAnswers : [String] = ["Milkyway", "Andromeda", "Supernova", "Blackhole", "Singularity", "Saturn", "Jupiter", "84", "Yes", "Schwarzchild"]
+    @ObservedObject var viewModel = AstronomyViewModel()
     
     var body: some View {
         NavigationView {
@@ -21,21 +21,16 @@ struct ArtView: View {
                 HStack {
                     Text("Enter Answer Here: ")
                     TextField("", text: $input)
-                        .keyboardType(.numberPad)
+                        .keyboardType(.default)
                     Button("submit", action: submit)
                 }
                 
                 Spacer()
                 
                 List {
-                    ForEach(viewModel.listofArtQuestions, id: \.self) { piece  in
-                        VStack {
-                            let url = URL(string: piece.primaryImageSmall)
-                            let data = try? Data(contentsOf: url!)
-                            if let imageData = data {
-                                let image = UIImage(data: imageData)
-                                Image(uiImage: image!)
-                            }
+                    ForEach(viewModel.listofAstronomyQuestions) { question  in
+                        HStack {
+                            AstronomyQuestionItem(question: question)
                         }
                     }
                 }.listStyle(.grouped)
@@ -43,7 +38,7 @@ struct ArtView: View {
                 Spacer()
                 
                 HStack {
-                    Text("You got: " + String(numRight) + "/5")
+                    Text("You got: " + String(numRight) + "/10")
                 }
             }
         }
@@ -63,8 +58,8 @@ struct ArtView: View {
     }
 }
 
-struct ArtView_Previews: PreviewProvider {
+struct AstronomyView_Previews: PreviewProvider {
     static var previews: some View {
-        ArtView()
+        HistoryView()
     }
 }

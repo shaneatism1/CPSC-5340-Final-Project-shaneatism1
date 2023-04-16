@@ -16,7 +16,7 @@ struct MathQuestionItem: View {
     }
 }
 
-struct QuestionItem_Previews: PreviewProvider {
+struct MathQuestionItem_Previews: PreviewProvider {
     static var previews: some View {
         MathQuestionItem(question: QuestionModel(questionContent: MathQuestionModel(prompt: "")))
     }

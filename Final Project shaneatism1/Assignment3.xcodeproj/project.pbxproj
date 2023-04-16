@@ -11,6 +11,9 @@
 		ACF5E04429BE958000DD981A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5E04329BE958000DD981A /* Assets.xcassets */; };
 		ACF5E04729BE958000DD981A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF5E04629BE958000DD981A /* Preview Assets.xcassets */; };
 		B32552AE29E1EA3D005307B4 /* MathQuestionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32552AD29E1EA3D005307B4 /* MathQuestionItem.swift */; };
+		B33B97F929EC9FF40048A9F8 /* AstronomyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B97F829EC9FF40048A9F8 /* AstronomyView.swift */; };
+		B33B97FB29ECA0DF0048A9F8 /* AstronomyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B97FA29ECA0DF0048A9F8 /* AstronomyViewModel.swift */; };
+		B33B97FD29ECA4CA0048A9F8 /* AstronomyQuestionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B97FC29ECA4CA0048A9F8 /* AstronomyQuestionItem.swift */; };
 		B367665D29CBD215003499B6 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B367665C29CBD215003499B6 /* QuestionModel.swift */; };
 		B367666129CBD27D003499B6 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B367666029CBD27D003499B6 /* MathView.swift */; };
 		B367666529CBD43C003499B6 /* MathViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B367666429CBD43C003499B6 /* MathViewModel.swift */; };
@@ -28,6 +31,9 @@
 		ACF5E04329BE958000DD981A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF5E04629BE958000DD981A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B32552AD29E1EA3D005307B4 /* MathQuestionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuestionItem.swift; sourceTree = "<group>"; };
+		B33B97F829EC9FF40048A9F8 /* AstronomyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyView.swift; sourceTree = "<group>"; };
+		B33B97FA29ECA0DF0048A9F8 /* AstronomyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyViewModel.swift; sourceTree = "<group>"; };
+		B33B97FC29ECA4CA0048A9F8 /* AstronomyQuestionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyQuestionItem.swift; sourceTree = "<group>"; };
 		B367665C29CBD215003499B6 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		B367666029CBD27D003499B6 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathView.swift; sourceTree = "<group>"; };
 		B367666429CBD43C003499B6 /* MathViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathViewModel.swift; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 			children = (
 				B32552AD29E1EA3D005307B4 /* MathQuestionItem.swift */,
 				B3C9539829E3378300D3442B /* HistoryQuestionItem.swift */,
+				B33B97FC29ECA4CA0048A9F8 /* AstronomyQuestionItem.swift */,
 			);
 			path = Item;
 			sourceTree = "<group>";
@@ -112,6 +119,7 @@
 				B367666029CBD27D003499B6 /* MathView.swift */,
 				B3C9539429E3363400D3442B /* HistoryView.swift */,
 				B3685F0229E78BFA00A9CD18 /* ArtView.swift */,
+				B33B97F829EC9FF40048A9F8 /* AstronomyView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,6 +130,7 @@
 				B367666429CBD43C003499B6 /* MathViewModel.swift */,
 				B3C9539629E3370600D3442B /* HistoryViewModel.swift */,
 				B3685F0729E78CB100A9CD18 /* ArtViewModel.swift */,
+				B33B97FA29ECA0DF0048A9F8 /* AstronomyViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -197,8 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B367666129CBD27D003499B6 /* MathView.swift in Sources */,
+				B33B97FB29ECA0DF0048A9F8 /* AstronomyViewModel.swift in Sources */,
+				B33B97F929EC9FF40048A9F8 /* AstronomyView.swift in Sources */,
 				B3C9539529E3363400D3442B /* HistoryView.swift in Sources */,
 				ACF5E04029BE957F00DD981A /* QuizApp.swift in Sources */,
+				B33B97FD29ECA4CA0048A9F8 /* AstronomyQuestionItem.swift in Sources */,
 				B367666529CBD43C003499B6 /* MathViewModel.swift in Sources */,
 				B3685F0A29E78ED100A9CD18 /* ArtModel.swift in Sources */,
 				B32552AE29E1EA3D005307B4 /* MathQuestionItem.swift in Sources */,

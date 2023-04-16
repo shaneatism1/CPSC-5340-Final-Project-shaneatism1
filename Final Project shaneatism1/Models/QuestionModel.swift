@@ -19,3 +19,7 @@ struct MathQuestionModel: Hashable {
 struct HistoryQuestionModel: Hashable {
     let prompt : String
 }
+
+struct AstronomyQuestionModel: Hashable {
+    let prompt : String
+}
