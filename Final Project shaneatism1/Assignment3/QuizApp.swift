@@ -17,6 +17,7 @@ struct QuizApp: App {
                     NavigationLink(destination: HistoryView()) {Text("History Quiz")}
                     NavigationLink(destination: ArtView()) {Text("Art Quiz")}
                     NavigationLink(destination: AstronomyView()) {Text("Astronomy Quiz")}
+                    NavigationLink(destination: CapitalView()) {Text("Country Capital Quiz")}
                 }
                 .listStyle(.grouped)
                 .navigationTitle("Quiz App")

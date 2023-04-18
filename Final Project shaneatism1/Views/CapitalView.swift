@@ -1,19 +1,19 @@
 //
-//  AstronomyView.swift
+//  CapitalView.swift
 //  Assignment3
 //
-//  Created by user231162 on 4/16/23.
+//  Created by user231162 on 4/18/23.
 //
 
 import SwiftUI
 
-struct AstronomyView: View {
+struct CapitalView: View {
     
     @State var input: String = ""
     @State var numRight: Int = 0
     @State var i: Int = 0
-    let rightAnswers : [String] = ["Milkyway", "Andromeda", "Supernova", "Blackhole", "Singularity", "Saturn", "Jupiter", "84", "Yes", "Schwarzchild"]
-    @ObservedObject var viewModel = AstronomyViewModel()
+    let rightAnswers : [String] = ["Beijing", "Ottawa", "Bueno Aires", "Cairo", "Berlin", "London", "Canberra", "Tokyo", "Kampala", "New Delhi"]
+    @ObservedObject var viewModel = CapitalViewModel()
     
     var body: some View {
         NavigationView {
@@ -28,9 +28,9 @@ struct AstronomyView: View {
                 Spacer()
                 
                 List {
-                    ForEach(viewModel.listofAstronomyQuestions) { question  in
+                    ForEach(viewModel.listofCapitalQuestions) { question  in
                         HStack {
-                            AstronomyQuestionItem(question: question)
+                            CapitalQuestionItem(question: question)
                         }
                     }
                 }.listStyle(.grouped)
@@ -58,8 +58,8 @@ struct AstronomyView: View {
     }
 }
 
-struct AstronomyView_Previews: PreviewProvider {
+struct CapitalView_Previews: PreviewProvider {
     static var previews: some View {
-        AstronomyView()
+        CapitalView()
     }
 }
